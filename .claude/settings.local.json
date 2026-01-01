@@ -151,7 +151,11 @@
       "Bash(Select-Object -First 1)",
       "Bash(timeout 5 curl:*)",
       "Bash(timeout 10 curl:*)",
-      "Bash(timeout 8 curl:*)"
+      "Bash(timeout 8 curl:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Production IIS deployment with full application\n\nThis commit includes the complete JubileeVerse application configured for production deployment on Windows Server with IIS/IISNode.\n\nKey Features:\n- Complete Express.js application with authentication\n- PostgreSQL database with 93 migrations\n- Redis caching and session management\n- Qdrant vector database integration\n- AI service integrations \\(OpenAI, Anthropic, Grok\\)\n- WebSocket support for real-time features\n- Background job processing\n- Comprehensive error handling\n\nProduction Configuration:\n- IIS 10.0 with IISNode v0.2.26\n- URL Rewrite rules for Node.js integration\n- Custom rate limiting for IIS environment\n- AppError-based error handling with proper status codes\n- Production environment detection\n- Security middleware \\(Helmet, rate limiting\\)\n\nDocumentation:\n- IIS_PRODUCTION_DEPLOYMENT.md - Complete IIS setup guide\n- PRODUCTION_SETUP.md - Docker/standalone deployment\n- Comprehensive troubleshooting guides\n- Installation scripts and helpers\n\nDatabase:\n- 93 database migrations\n- Test user creation script\n- PostgreSQL 16 support\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
