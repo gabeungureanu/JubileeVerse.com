@@ -1,0 +1,604 @@
+# JubileeVerse Server Logs
+# Started: 2026-01-01T06:23:33.137Z
+# This file is cleared on each server restart
+
+logs:
+  - timestamp: "2026-01-01T06:23:33.186Z"
+    level: "info"
+    message: "Session: Using memory store"
+
+  - timestamp: "2026-01-01T06:23:33.190Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "1656e8beae1d4c2293943578c4b41360"
+      requestId: "85b7cd19"
+      method: "GET"
+      url: "/api/personas"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.192Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:list:{\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.195Z"
+    level: "debug"
+    message: "Getting all personas"
+    meta:
+      category: "null"
+      language: "null"
+      activeOnly: "true"
+
+  - timestamp: "2026-01-01T06:23:33.195Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:list:{\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.198Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "1656e8beae1d4c2293943578c4b41360"
+      requestId: "85b7cd19"
+      method: "GET"
+      path: "/personas"
+      route: "/personas"
+      statusCode: "200"
+      durationMs: "8"
+      contentLength: "undefined"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.204Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "0ac7b295b8994a3ba1fae6ba8425fa7a"
+      requestId: "318ebf02"
+      method: "GET"
+      url: "/api/personas?category=scholar"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.206Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:list:{\"category\":\"scholar\",\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.208Z"
+    level: "debug"
+    message: "Getting all personas"
+    meta:
+      category: "scholar"
+      language: "null"
+      activeOnly: "true"
+
+  - timestamp: "2026-01-01T06:23:33.208Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:list:{\"category\":\"scholar\",\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.209Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "0ac7b295b8994a3ba1fae6ba8425fa7a"
+      requestId: "318ebf02"
+      method: "GET"
+      path: "/personas"
+      route: "/personas"
+      statusCode: "200"
+      durationMs: "5"
+      contentLength: "790"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.219Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "96543a6b13304ff7ba898b873dc98ddc"
+      requestId: "81d2d0b9"
+      method: "GET"
+      url: "/api/personas?language=he"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.220Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:list:{\"language\":\"he\",\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.222Z"
+    level: "debug"
+    message: "Getting all personas"
+    meta:
+      category: "null"
+      language: "he"
+      activeOnly: "true"
+
+  - timestamp: "2026-01-01T06:23:33.222Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:list:{\"language\":\"he\",\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.224Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "96543a6b13304ff7ba898b873dc98ddc"
+      requestId: "81d2d0b9"
+      method: "GET"
+      path: "/personas"
+      route: "/personas"
+      statusCode: "200"
+      durationMs: "5"
+      contentLength: "40"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.229Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "2ac5f96bbf3c4e4289af209e37091e74"
+      requestId: "10adc978"
+      method: "GET"
+      url: "/api/personas/featured"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.230Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:featured:6"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.231Z"
+    level: "debug"
+    message: "Getting featured personas"
+    meta:
+      limit: "6"
+
+  - timestamp: "2026-01-01T06:23:33.232Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:featured:6"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.234Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "2ac5f96bbf3c4e4289af209e37091e74"
+      requestId: "10adc978"
+      method: "GET"
+      path: "/personas/featured"
+      route: "/personas/featured"
+      statusCode: "200"
+      durationMs: "5"
+      contentLength: "undefined"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.238Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "b19596a5768e4e8d9f3fc1454f573013"
+      requestId: "fea5b5f6"
+      method: "GET"
+      url: "/api/personas/featured?limit=3"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.240Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:featured:3"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.241Z"
+    level: "debug"
+    message: "Getting featured personas"
+    meta:
+      limit: "3"
+
+  - timestamp: "2026-01-01T06:23:33.242Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:featured:3"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.243Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "b19596a5768e4e8d9f3fc1454f573013"
+      requestId: "fea5b5f6"
+      method: "GET"
+      path: "/personas/featured"
+      route: "/personas/featured"
+      statusCode: "200"
+      durationMs: "4"
+      contentLength: "780"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.247Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "2cb22728ad7f4d6c8c7d6d4bed89b0a3"
+      requestId: "76726f73"
+      method: "GET"
+      url: "/api/personas/categories"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.248Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:categories"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.250Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:categories"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.252Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "2cb22728ad7f4d6c8c7d6d4bed89b0a3"
+      requestId: "76726f73"
+      method: "GET"
+      path: "/personas/categories"
+      route: "/personas/categories"
+      statusCode: "200"
+      durationMs: "4"
+      contentLength: "602"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:33.256Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "cc8b8618d97a416592158c6262bcb69d"
+      requestId: "951263a5"
+      method: "GET"
+      url: "/api/personas/search?q=Samuel"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:33.258Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:search:Samuel:{\"limit\":10}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:33.259Z"
+    level: "debug"
+    message: "Searching personas"
+    meta:
+      query: "Samuel"
+      limit: "10"
+      category: "null"
+
+  - timestamp: "2026-01-01T06:23:33.259Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:search:Samuel:{\"limit\":10}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.567Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "cc8b8618d97a416592158c6262bcb69d"
+      requestId: "951263a5"
+      method: "GET"
+      path: "/personas/search"
+      route: "/personas/search"
+      statusCode: "200"
+      durationMs: "1310"
+      contentLength: "807"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.575Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "6155899af8f24339bc41db731262ef42"
+      requestId: "1b25aa8f"
+      method: "GET"
+      url: "/api/personas/search"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.578Z"
+    level: "error"
+    message: "Unhandled error"
+    meta:
+      error: "Search query is required"
+      stack: "Error: Search query is required\n    at C:\data\JubileeVerse.com_v8.0\src\controllers\PersonaController.js:147:11\n    at fn (C:\data\JubileeVerse.com_v8.0\src\middleware\errorHandler.js:51:21)\n    at Layer.handle [as handle_request] (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\layer.js:95:5)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\route.js:149:13)\n    at Route.dispatch (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\layer.js:95:5)\n    at C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:284:15\n    at router.process_params (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:346:12)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:280:10)\n    at router.handle (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:175:3)\n    at router (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\layer.js:95:5)\n    at trim_prefix (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:328:13)\n    at C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:286:9\n    at router.process_params (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:346:12)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:280:10)\n    at C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:646:15\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:265:14)\n    at router.handle (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:175:3)\n    at router (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\layer.js:95:5)\n    at trim_prefix (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:328:13)\n    at C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:286:9\n    at router.process_params (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:346:12)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:280:10)\n    at router.handle (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:175:3)\n    at router (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\layer.js:95:5)\n    at trim_prefix (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:328:13)\n    at C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:286:9\n    at router.process_params (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:346:12)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\express\lib\router\index.js:280:10)\n    at SendStream.error (C:\data\JubileeVerse.com_v8.0\node_modules\serve-static\index.js:121:7)\n    at SendStream.emit (node:events:508:28)\n    at SendStream.error (C:\data\JubileeVerse.com_v8.0\node_modules\send\index.js:270:17)\n    at SendStream.onStatError (C:\data\JubileeVerse.com_v8.0\node_modules\send\index.js:417:12)\n    at next (C:\data\JubileeVerse.com_v8.0\node_modules\send\index.js:730:16)\n    at onstat (C:\data\JubileeVerse.com_v8.0\node_modules\send\index.js:719:14)\n    at FSReqCallback.oncomplete (node:fs:195:21)"
+      url: "/api/personas/search"
+      method: "GET"
+
+  - timestamp: "2026-01-01T06:23:34.583Z"
+    level: "warn"
+    message: "Request completed"
+    meta:
+      traceId: "6155899af8f24339bc41db731262ef42"
+      requestId: "1b25aa8f"
+      method: "GET"
+      path: "/api/personas/search"
+      route: "/personas/search"
+      statusCode: "400"
+      durationMs: "7"
+      contentLength: "undefined"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.588Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "b3d7f5088bd34e838788e350fe43db10"
+      requestId: "56d69282"
+      method: "GET"
+      url: "/api/personas/search?q=prayer&category=prayer"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.590Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:search:prayer:{\"limit\":10,\"category\":\"prayer\"}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.593Z"
+    level: "debug"
+    message: "Searching personas"
+    meta:
+      query: "prayer"
+      limit: "10"
+      category: "prayer"
+
+  - timestamp: "2026-01-01T06:23:34.593Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:search:prayer:{\"limit\":10,\"category\":\"prayer\"}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.595Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "b3d7f5088bd34e838788e350fe43db10"
+      requestId: "56d69282"
+      method: "GET"
+      path: "/personas/search"
+      route: "/personas/search"
+      statusCode: "200"
+      durationMs: "6"
+      contentLength: "57"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.600Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "7b0cc0cc80b844e2b1c535a2249d6dc4"
+      requestId: "89c800f9"
+      method: "GET"
+      url: "/api/personas/69765335-6c1d-4c52-894e-70a92b380418"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.601Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:69765335-6c1d-4c52-894e-70a92b380418"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.603Z"
+    level: "debug"
+    message: "Getting persona by ID"
+    meta:
+      personaId: "69765335-6c1d-4c52-894e-70a92b380418"
+
+  - timestamp: "2026-01-01T06:23:34.603Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:69765335-6c1d-4c52-894e-70a92b380418"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.605Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "7b0cc0cc80b844e2b1c535a2249d6dc4"
+      requestId: "89c800f9"
+      method: "GET"
+      path: "/personas/69765335-6c1d-4c52-894e-70a92b380418"
+      route: "/personas/:id"
+      statusCode: "200"
+      durationMs: "5"
+      contentLength: "777"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.610Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "3c751ac84a3f4c41ae91242529a615fa"
+      requestId: "7a2a8638"
+      method: "GET"
+      url: "/api/personas/non-existent-id"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.611Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:non-existent-id"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.613Z"
+    level: "debug"
+    message: "Getting persona by ID"
+    meta:
+      personaId: "non-existent-id"
+
+  - timestamp: "2026-01-01T06:23:34.613Z"
+    level: "error"
+    message: "Failed to get persona"
+    meta:
+      personaId: "non-existent-id"
+      error: "Persona not found"
+
+  - timestamp: "2026-01-01T06:23:34.615Z"
+    level: "error"
+    message: "Unhandled error"
+    meta:
+      error: "Persona not found"
+      stack: "Error: Persona not found\n    at Object.getPersonaById (C:\data\JubileeVerse.com_v8.0\src\services\PersonaService.js:42:13)\n    at C:\data\JubileeVerse.com_v8.0\src\controllers\PersonaController.js:201:19"
+      url: "/api/personas/non-existent-id"
+      method: "GET"
+
+  - timestamp: "2026-01-01T06:23:34.619Z"
+    level: "error"
+    message: "Request completed"
+    meta:
+      traceId: "3c751ac84a3f4c41ae91242529a615fa"
+      requestId: "7a2a8638"
+      method: "GET"
+      path: "/api/personas/non-existent-id"
+      route: "/personas/:id"
+      statusCode: "500"
+      durationMs: "9"
+      contentLength: "undefined"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.625Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "f18e1d47cff447afb32b015e5f85482a"
+      requestId: "8a92b778"
+      method: "GET"
+      url: "/personas"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.631Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "f18e1d47cff447afb32b015e5f85482a"
+      requestId: "8a92b778"
+      method: "GET"
+      path: "/"
+      route: "/"
+      statusCode: "200"
+      durationMs: "6"
+      contentLength: "undefined"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
+  - timestamp: "2026-01-01T06:23:34.636Z"
+    level: "debug"
+    message: "Request started"
+    meta:
+      traceId: "36375bc526204288bc17b793b95318e7"
+      requestId: "242ff527"
+      method: "GET"
+      url: "/personas/list"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+
+  - timestamp: "2026-01-01T06:23:34.637Z"
+    level: "error"
+    message: "Cache get error"
+    meta:
+      key: "persona:list:{\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.639Z"
+    level: "debug"
+    message: "Getting all personas"
+    meta:
+      category: "null"
+      language: "null"
+      activeOnly: "true"
+
+  - timestamp: "2026-01-01T06:23:34.639Z"
+    level: "error"
+    message: "Cache set error"
+    meta:
+      key: "persona:list:{\"activeOnly\":true}"
+      error: "Redis client not initialized. Call initialize() first."
+
+  - timestamp: "2026-01-01T06:23:34.641Z"
+    level: "info"
+    message: "Request completed"
+    meta:
+      traceId: "36375bc526204288bc17b793b95318e7"
+      requestId: "242ff527"
+      method: "GET"
+      path: "/list"
+      route: "/list"
+      statusCode: "200"
+      durationMs: "5"
+      contentLength: "790"
+      userAgent: "undefined"
+      ip: "::ffff:127.0.0.1"
+      userId: "undefined"
+
